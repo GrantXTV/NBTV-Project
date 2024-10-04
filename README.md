@@ -32,7 +32,9 @@ Video and audio record that will save the Mpeg2 video into the temp folder.
 By Grant Taylor,
 VE3XTV
 
-Install process
+
+Before Installing the NBTV software do this
+
 add this repository:
 
 sudo add-apt-repository ppa:gambas-team/gambas3
