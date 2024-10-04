@@ -34,5 +34,7 @@ VE3XTV
 
 Install process
 add this repository:
+
 sudo add-apt-repository ppa:gambas-team/gambas3
+
 sudo apt update
