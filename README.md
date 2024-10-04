@@ -31,3 +31,8 @@ Video and audio record that will save the Mpeg2 video into the temp folder.
 
 By Grant Taylor,
 VE3XTV
+
+Install process
+add this repository:
+sudo add-apt-repository ppa:gambas-team/gambas3
+sudo apt update
