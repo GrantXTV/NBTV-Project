@@ -5,7 +5,7 @@ Version 3.0
 
 This application is a hybrid Analog / Digital Television decoder to receive audio and video via Narrow Band Television (NBTV). 
 This application is designed to send television (Sound and Video) via Sky-wave, using OFDM with 192 carriers, made of four parts. 
-The Encode and Decoder, with the modulator and demodulator using GUN radio.
+The Encode and Decoder, with the modulator and demodulator using GNU radio.
 
 This software needs to work within Gambas3 interpretion software layer (VB for Linux), with these install files. 
 
