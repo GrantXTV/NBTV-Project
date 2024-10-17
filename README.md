@@ -1,7 +1,6 @@
 # NBTV-Project
-Version 3.0
+Version 3.2
 NBTV help
-Version 3.0
 
 This application is a hybrid Analog / Digital Television decoder to receive audio and video via Narrow Band Television (NBTV). 
 This application is designed to send television (Sound and Video) via Sky-wave, using OFDM with 192 carriers, made of four parts. 
