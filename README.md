@@ -1,6 +1,6 @@
 # NBTV-Project
 Version 3.2,
-OS Ubuntu Linux 
+OS Ubuntu Linux, 
 NBTV help
 
 This application is a hybrid Analog / Digital Television decoder to receive audio and video via Narrow Band Television (NBTV). 
