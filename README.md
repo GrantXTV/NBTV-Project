@@ -1,5 +1,5 @@
 # NBTV-Project
-Version 3.2,
+Version 3.3,
 OS Ubuntu Linux, 
 NBTV help
 
@@ -24,6 +24,8 @@ On the decoder there is View, to enable the decoder.
 Wavelet on / off to enable the wavelet decode for 240 x 192 mode, only with mode 1, else it is disabled. 
 
 Y+C has colour and video enabled, else black and white.
+
+Sync delay, set the delay time to adjuct the image to fit the screen size, as NBTV is without sync to save RF bandwidth and therefore this done manually by the user.
 
 Frame auto will only display Key frames, without the Motion frames.
 
