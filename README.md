@@ -42,3 +42,5 @@ add this repository:
 sudo add-apt-repository ppa:gambas-team/gambas3
 
 sudo apt update
+
+![NBTV_Testcard_F](https://github.com/user-attachments/assets/119cc0af-78a2-4815-b733-19ef7f326f18)
