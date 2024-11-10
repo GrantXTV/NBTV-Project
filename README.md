@@ -26,6 +26,7 @@ Wavelet on / off to enable the wavelet decode for 240 x 192 mode, only with mode
 Y+C has colour and video enabled, else black and white.
 
 Sync delay, set the delay time to adjuct the image to fit the screen size, as NBTV is without sync to save RF bandwidth and therefore this done manually by the user.
+This can be done with the sync alignment meter display, by looking for the transition between the Chrominance and the Luminance video information. 
 
 Frame auto will only display Key frames, without the Motion frames.
 
