@@ -1,5 +1,5 @@
 # NBTV-Project
-Version 3.3,
+Version 3.4,
 OS Ubuntu Linux, 
 NBTV help
 
@@ -42,5 +42,6 @@ add this repository:
 sudo add-apt-repository ppa:gambas-team/gambas3
 
 sudo apt update
+![NBTV_1](https://github.com/user-attachments/assets/1d3b3995-1ab8-486d-9bb2-ee72394ff3ba)
 
-![NBTV_Testcard_F](https://github.com/user-attachments/assets/119cc0af-78a2-4815-b733-19ef7f326f18)
+
