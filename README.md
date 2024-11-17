@@ -5,7 +5,9 @@ NBTV help
 
 This application is a hybrid Analog / Digital Television decoder to receive audio and video via Narrow Band Television (NBTV). 
 This application is designed to send television (Sound and Video) via Sky-wave, using OFDM with 192 carriers, made of four parts. 
-The Encode and Decoder, with the modulator and demodulator using GNU radio.
+The Encode and Decoder, with the modulator and demodulator using GNU radio. The SDR modulator take the video data in via UDP, formats
+it in a way to be encoded into 192 RF carriers and unconverted using SDR TX. On the receiver side this is done in reverse by 
+demodulation the OFDM QAM carriers and rebuilding them into a data stream to send back out via UDP.
 
 This software needs to work within Gambas3 interpretion software layer (VB for Linux), with these install files. 
 
@@ -25,8 +27,9 @@ Wavelet on / off to enable the wavelet decode for 240 x 192 mode, only with mode
 
 Y+C has colour and video enabled, else black and white.
 
-Sync delay, set the delay time to adjuct the image to fit the screen size, as NBTV is without sync to save RF bandwidth and therefore this done manually by the user.
-This can be done with the sync alignment meter display, by looking for the transition between the Chrominance and the Luminance video information. 
+Sync delay, set the delay time to adjuct the image to fit the screen size, as NBTV is without sync to save RF bandwidth and therefore this done 
+manually by the user. This can be done with the sync alignment meter display, by looking for the transition between the Chrominance and the 
+Luminance video information. 
 
 Frame auto will only display Key frames, without the Motion frames.
 
