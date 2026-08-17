@@ -1,5 +1,5 @@
 # NBTV-Project
-Version 3.4,
+Version 3.13,
 OS Ubuntu Linux, 
 NBTV help
 
@@ -37,16 +37,5 @@ Video and audio record that will save the Mpeg2 video into the temp folder.
 
 By Grant Taylor,
 VE3XTV
-
-
-Before Installing the NBTV software do this to
-
-add this repository:
-
-sudo add-apt-repository ppa:gambas-team/gambas3
-
-sudo apt update
-
-![NBTV_1](https://github.com/user-attachments/assets/1d3b3995-1ab8-486d-9bb2-ee72394ff3ba)
 
 Please note that the .gambas files run with bugs, a work in progress. When the encoder and decoder are working via UDP, you can run the "UDP_loopback_test.py" file to test the interface via GNU Radio. 
