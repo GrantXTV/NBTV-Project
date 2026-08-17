@@ -38,4 +38,8 @@ Video and audio record that will save the Mpeg2 video into the temp folder.
 By Grant Taylor,
 VE3XTV
 
-Please note that the .gambas files run with bugs, a work in progress. When the encoder and decoder are working via UDP, you can run the "UDP_loopback_test.py" file to test the interface via GNU Radio. 
+Please note that the .gambas files run with bugs, a work in progress. When the encoder and decoder are working via UDP, you can run the "UDP_loopback_test.py" file to test the interface via GNU Radio.
+
+<hr>
+<p></p>
+<img width="1943" height="808" alt="NBTV RX Test" src="https://github.com/user-attachments/assets/985f3855-5a1e-44c3-bae3-657556653941" />
