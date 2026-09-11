@@ -1,5 +1,5 @@
 # NBTV-Project
-Version 3.18,
+Version 3.19,
 OS Ubuntu Linux, 
 NBTV help
 
