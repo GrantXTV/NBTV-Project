@@ -1,5 +1,5 @@
 # NBTV-Project
-Version 3.20,
+Version 3.21,
 OS Ubuntu Linux, 
 NBTV help
 
@@ -15,9 +15,7 @@ There are four modes 1 to 4, where 4 has lowest level of video compression
 The input can be a video file URL or screen capture.
 
 This software sends data via UDP from the encoder to the modulator and this will need to set up by the user. 
-Or this could set up as a loop back test between the encoder and the decoder sections.  
-
-The Scan sets horizontal or vertical scanning, left to right or top down.
+Or this could set up as a loop back test between the encoder and the decoder sections.
 
 4:3 or 16:9 will set the aspect ratio required.
 
