@@ -42,8 +42,6 @@ Please note that the .gambas files run with bugs, a work in progress. When the e
 <p></p>
 <img width="646" height="425" alt="Screenshot_NBTV_3 22A" src="https://github.com/user-attachments/assets/dda92361-eef0-4b54-a990-9ad5f5252823" />
 <p></p>
-From GNU Radio showing the 8 different parts of the NBTV OFDM modulation, where there is pilot carriers between each part of the video signal for sync recovery and signal alinement. From left to right there is:
+On the GNU Radio side the image is showing the 8 different parts of the NBTV OFDM modulation, where there are pilot carriers placed between each part of the video signal for sync recovery and signal alignment. From left to right there is:
 <p></p>
-Digital audio A, Luminance odd, Luminance even, Chrominance R-Y & B-Y, Video frames A & B, Motion information odd, Motion information even, Digital audio B.
-
-Placement of digital audio A&B have been done this way, as this part of the video signal works better with group delay affects of OFDM output filtering.
+Digital audio A, Luminance odd, Luminance even, Chrominance R-Y & B-Y, Video frames A & B, Motion information odd, Motion information even, Digital audio B. Placement of digital audio A&B have been done this way, as this part of the video signal works better with group delay affects of OFDM output filtering
