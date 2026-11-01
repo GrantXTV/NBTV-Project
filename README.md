@@ -1,11 +1,13 @@
 # NBTV-Project
-Version 3.22,
+Version 3.23,
 OS Ubuntu Linux, 
 NBTV help
 
 This application is a hybrid Analog / Digital Television decoder to receive audio and video via Narrow Band Television (NBTV). This application is designed to send television (Sound and Video) via Sky-wave, using OFDM with 200 carriers, made of four parts. The Encode and Decoder, with the modulator and demodulator using GUN radio.
 
 This software needs to work within Gambas3 software layer (VB for Linux), with these install files. 
+
+New wide screen format 180 x 96 x 12.5 or 15:8 that is scaled to 1:9.
 
 There are five modes 1 to 5, where 5 has lowest level of video compression
 The input can be a video file URL or screen capture
