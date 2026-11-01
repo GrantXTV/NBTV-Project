@@ -7,10 +7,10 @@ This application is a hybrid Analog / Digital Television decoder to receive audi
 
 This software needs to work within Gambas3 software layer (VB for Linux), with these install files. 
 
-New wide screen format 180 x 96 x 12.5 or 15:8 that is scaled to 1:9.
+New wide screen format 180 x 96 x 12.5 or 15:8 that is scaled to 16:9.
 
-There are five modes 1 to 5, where 5 has lowest level of video compression
-The input can be a video file URL or screen capture
+There are four modes 1 to 4, where 4 has lowest level of video compression
+The input can be a video file URL or screen capture, where mode 3 provides the best all round performance.
 
 This software sends data via UDP from the encoder to the modulator and this will need to set up by the user. Or this could set up as a loop back test between the encoder and the decoder sections.
 
