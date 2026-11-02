@@ -7,7 +7,7 @@ This application is a hybrid Analog / Digital Television decoder to receive audi
 
 This software needs to work within Gambas3 software layer (VB for Linux), with these install files. 
 
-New wide screen format 180 x 96 x 12.5 or 15:8 that is scaled to 16:9.
+New wide screen format 180 x 96 x 12.5 or 15:8 that scaled to 16:9, with loop-back test files for 120 and 180 formats.
 
 There are four modes 1 to 4, where 4 has lowest level of video compression
 The input can be a video file URL or screen capture, where mode 3 provides the best all round performance.
