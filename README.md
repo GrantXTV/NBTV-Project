@@ -1,49 +1,29 @@
 # NBTV-Project
-Version 3.23,
-OS Ubuntu Linux, 
-NBTV help
+NBTV SDR 
+Version 1.12
 
-This application is a hybrid Analog / Digital Television decoder to receive audio and video via Narrow Band Television (NBTV). This application is designed to send television (Sound and Video) via Sky-wave, using OFDM with 200 carriers, made of four parts. The Encode and Decoder, with the modulator and demodulator using GUN radio.
+NBTV SDR puts the NBTV system on the air. It encodes pictures and stereo sound and transmits them as OFDM. It also receives and decodes, in the same window.
 
-This software needs to work within Gambas3 software layer (VB for Linux), with these install files. 
+It uses the same codec and modem as the NBTV OFDM Lab, so the lab and NBTV SDR understand each other.
 
-New wide screen format 180 x 96 x 12.5 or 15:8 that scaled to 16:9, with loop-back test files for 120 and 180 formats.
+The window has three parts:
+  - left: Encode and TX
+  - centre: On the air - the settings the transmitter and receiver share
+  - right: Decoder and RX
 
-There are four modes 1 to 4, where 4 has lowest level of video compression
-The input can be a video file URL or screen capture, where mode 3 provides the best all round performance.
+NBTV SDR is half duplex. It receives until you press TX, and goes back to receive when you press TX again. It always starts on receive.
 
-This software sends data via UDP from the encoder to the modulator and this will need to set up by the user. Or this could set up as a loop back test between the encoder and the decoder sections.
 
-4:3 or 16:9 will set the aspect ratio required
+Getting started
 
-On the decoder there is View, to enable the decoder
+1. Press "Radio / I/Q setup..." (Encode and TX) and set up your hardware:
+   - ExSDR radio: choose the serial port from the drop-down and the 192 kHz sound card's output and input.
+   - HackRF: choose the HackRF.
+2. Choose Hardware: ExSDR radio or HackRF.
+3. Set the frequency (centre). Click or roll the mouse wheel on the digits, or type kHz in the box.
+4. Set the guard, frame rate and the other modem settings to match the other station. Or tick "Auto mode (RX)" and the receiver finds them itself.
+5. To transmit, choose a picture source and press TX. Start with a low TX level.
+<img width="959" height="521" alt="NBTV_SDRv1" src="https://github.com/user-attachments/assets/3ea008c7-d6cd-459a-ac3b-c83aafab3a28" />
 
-Wavelet on / off to enable the wavelet decode for 240 x 192 mode, only with mode 1, else it is disabled 
-
-Y+C has colour and video enabled, else black and white
-
-Frame auto will only display Key frames, without the Motion frames
-
-Video and audio record that will save the Mpeg2 video into the temp folder
-<hr>
-<p></p>
-<img width="905" height="428" alt="Screenshot_NBTV_3 22" src="https://github.com/user-attachments/assets/784529ab-ac67-4ae9-ba6c-261bb13331b8" />
-<p></p>
-Background:
-
-The system operates through a video and audio encoder application that transforms each video frame into a series of uncompressed bitmap files. Each set of three frames is divided into components for color and a monochrome image, which are subsequently converted into key and motion frames. This constitutes a single data frame that is then encapsulated within a User Datagram Protocol (UDP) packet, that is sent to the SDR modulator. The incoming data undergoes preprocessing for noise reduction and is randomized for the OFDM or CDMA modulator, before being converted to RF using a HackRF.
-
-On the demodulator end, the HackRF captures the RF signal and sends it to the SDR block for demodulation. After the noise processing is completed and the data frame is reconstructed, it is forwarded to the audio/video decoder via UDP. The video decoder synchronizes with the sync bits to identify the beginning of the data frame, allowing it to reconstruct the three video frames as uncompressed bitmap files. These images are then displayed alongside the recovered audio information within the viewer application.
-
-By Grant Taylor
-VE3XTV
-
-Please note that the .gambas files run with bugs, a work in progress. When the encoder and decoder are working via UDP, you can run the "UDP_loopback_test_v2.py" file to test the interface via GNU Radio.
 
 <hr>
-<p></p>
-<img width="646" height="425" alt="Screenshot_NBTV_3 22A" src="https://github.com/user-attachments/assets/dda92361-eef0-4b54-a990-9ad5f5252823" />
-<p></p>
-On the GNU Radio side the image is showing the 8 different parts of the NBTV OFDM modulation, where there are pilot carriers placed between each part of the video signal for sync recovery and signal alignment. From left to right there is:
-<p></p>
-Digital audio A, Luminance odd, Luminance even, Chrominance R-Y & B-Y, Video frames A & B, Motion information odd, Motion information even, Digital audio B. Placement of digital audio A&B have been done this way, as this part of the video signal works better with group delay affects of OFDM output filtering
