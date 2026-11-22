@@ -1,6 +1,6 @@
 # NBTV-Project
 NBTV SDR 
-Version 1.14
+Version 1.33
 
 NBTV SDR puts the NBTV system on the air. It encodes pictures and stereo sound and transmits them as OFDM. It also receives and decodes, in the same window.
 
@@ -23,7 +23,8 @@ Getting started
 3. Set the frequency (centre). Click or roll the mouse wheel on the digits, or type kHz in the box.
 4. Set the guard, frame rate and the other modem settings to match the other station. Or tick "Auto mode (RX)" and the receiver finds them itself.
 5. To transmit, choose a picture source and press TX. Start with a low TX level.
-<img width="959" height="521" alt="NBTV_SDRv1" src="https://github.com/user-attachments/assets/3ea008c7-d6cd-459a-ac3b-c83aafab3a28" />
 
+
+<img width="959" height="524" alt="Screenshot_NBTV_SDR" src="https://github.com/user-attachments/assets/76ec982f-79b9-4ec3-aeb9-865681a8357c" />
 
 <hr>
