@@ -1,6 +1,6 @@
 # NBTV-Project
 NBTV SDR 
-Version 1.40
+Version 1.41
 
 NBTV SDR puts the NBTV system on the air. It encodes pictures and stereo sound and transmits them as OFDM. It also receives and decodes, in the same window.
 
