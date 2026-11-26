@@ -1,6 +1,7 @@
+
 # NBTV-Project
 NBTV SDR 
-Version 1.46
+Version 1.51
 
 NBTV SDR puts the NBTV system on the air. It encodes pictures and stereo sound and transmits them as OFDM. It also receives and decodes, in the same window.
 
@@ -25,6 +26,6 @@ Getting started
 5. To transmit, choose a picture source and press TX. Start with a low TX level.
 
 
-<img width="960" height="517" alt="Screenshot_NBTV_SDR" src="https://github.com/user-attachments/assets/27cd3c45-eda8-42b4-b83e-5766074acc8e" />
+<img width="959" height="525" alt="Screenshot_NBTV_SDR" src="https://github.com/user-attachments/assets/02adfd8b-fbaa-4e5b-83ce-63a40d2133df" />
 
 <hr>
